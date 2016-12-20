@@ -10,7 +10,7 @@ var Joi = require('joi');
 var _ = require('underscore');
 var util = require('util');
 var Table = require('cli-table');
-var uuid = require('node-uuid');
+var uuid = require('uuid');
 
 var rpc = require("./actions/rpc")
 var builtin = require("./actions/builtin")
